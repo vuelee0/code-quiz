@@ -7,21 +7,19 @@ header a {
     text-decoration: none;
 }
 
-main {
+section {
     text-align: center;
-    margin: 50px 100px;
+    margin: 100px auto 0 auto;
+    max-width: 600px;
 }
 
-.directions {
-    padding: 0px 200px 10px 200px;
-}
-
-#btn {
+.btnStyle {
     color: white;
     background-color: blueviolet;
     border-radius: 4px;
     border: none;
     padding: 8px;
+    margin: 5px;
 }
 
 .scores {
@@ -32,6 +30,6 @@ main {
     background-color: rgb(238, 170, 255);
 }
 
-/* .hide {
+/* .initialHide {
     display: none;
 } */

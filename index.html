@@ -17,17 +17,68 @@
     </header>
 
     <!-- Initial webpage -->
-    <main class="start">
+    <section class="start">
         <h1>Coding Quiz Challenge</h1>
-        <p class="directions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-        <button id="btn" onclick="start()">Start Quiz</button>
-    </main>
+        <p class="instructions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <button id="btn" class="btnStyle">Start Quiz</button>
+    </section>
 
     <!-- Template Q&A -->
-    <main>
-        <h1></h1>
+    <section class="initialHide questions">
+        <h2>Dynamically created elements from this line of code document.createElement() are referred to as:</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle">html elements</button>
+                <button id="btn" class="btnStyle">global elements</button>
+                <button id="btn" class="btnStyle">local elements</button>
+                <button id="btn" class="btnStyle answer">DOM elements</button>
+            </div>
+    </section>
 
-    </main>
+    <section class="initialHide questions">
+        <h2>How do you stop legacy browser behavior used to help webpages communicate with servers, practically reloading a webpage every time you submit a form?</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle">addEventListener.(“stopreload”, );</button>
+                <button id="btn" class="btnStyle">event.stopReload();</button>
+                <button id="btn" class="btnStyle answer">event.preventDefault();</button>
+                <button id="btn" class="btnStyle">document.querySelect(“preventDefault”);</button>
+            </div>
+    </section>
+
+    <section class="initialHide questions">
+        <h2>Which method saves data to localStorage:</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle">saveItem()</button>
+                <button id="btn" class="btnStyle answer">setItem()</button>
+                <button id="btn" class="btnStyle">getItem()</button>
+                <button id="btn" class="btnStyle">getStorage</button>
+            </div>
+    </section>
+
+    <section class="initialHide questions">
+        <h2>Which CSS features can create a layout of columns</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle">Flexbox</button>
+                <button id="btn" class="btnStyle">CSS grid</button>
+                <button id="btn" class="btnStyle">Float</button>
+                <button id="btn" class="btnStyle answer">All of the above</button>
+            </div>
+    </section>
+
+    <section class="initialHide questions">
+        <h2>True or False, a for loop could execute a block of code a certain number of times?</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle answer">True</button>
+                <button id="btn" class="btnStyle">False</button>
+            </div>
+    </section>
+
+    <section class="initialHide questions">
+        <h2>True or False, null type is a JavaScript data type?</h2>
+            <div class="answerOptions">
+                <button id="btn" class="btnStyle answer">True</button>
+                <button id="btn" class="btnStyle">False</button>
+            </div>
+    </section>
 
     <script src="./assets/js/script.js"></script>
 </body>
