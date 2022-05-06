@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.directions {
+    padding: 0px 200px 10px 200px;
+}
+
+#btn {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+}
+
+.scores {
+    color: blueviolet;
+}
+
+#btn:hover, .scores:hover {
+    background-color: rgb(238, 170, 255);
+}
+
+/* .hide {
+    display: none;
+} */
