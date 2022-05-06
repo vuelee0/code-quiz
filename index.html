@@ -23,7 +23,7 @@
         <button id="btn" class="btnStyle">Start Quiz</button>
     </section>
 
-    <!-- Template Q&A -->
+    <!-- This section is hidden with the css display property:hide -->
     <section class="initialHide questions">
         <h2>Dynamically created elements from this line of code document.createElement() are referred to as:</h2>
             <div class="answerOptions">
@@ -80,6 +80,16 @@
             </div>
     </section>
 
+    <section id="end" class="initialHide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+            Enter initials: <input type="text" id="initials"></input>
+            <button id="btn" class="btnStyle">Submit</button>
+        </p>
+    </section>
+
+    
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
